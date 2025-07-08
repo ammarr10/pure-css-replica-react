@@ -642,3 +642,38 @@ body {
 .new-competition-btn:hover {
   background: #dc2626;
 }
+
+/* Chart indicator styles */
+.chart-indicator-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+
+.chart-indicator-line {
+  width: 4px;
+  height: 20px;
+  flex-shrink: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+
+.chart-indicator-dashed {
+  width: 0;
+  height: 20px;
+  border: 1.5px dashed var(--color-border);
+  background: transparent;
+  margin: 2px 0;
+}
+
+.chart-indicator-default {
+  height: 10px;
+  width: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
